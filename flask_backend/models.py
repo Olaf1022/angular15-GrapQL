@@ -2,8 +2,7 @@ from datetime import datetime
 from flask import request
 from flask_backend.core import db
 from flask_backend import app
-import json
-import argparse
+
 
 class Post(db.Model):
     id = db.Column(db.Integer, primary_key=True)
