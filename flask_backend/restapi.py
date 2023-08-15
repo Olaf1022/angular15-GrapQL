@@ -6,7 +6,6 @@ from flask_backend.core import db
 from flask_backend.models import Post
 import requests
 import json
-import argparse
 
 api = Api(app)
 
